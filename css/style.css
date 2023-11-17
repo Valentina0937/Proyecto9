@@ -62,7 +62,7 @@ form {
     width: 1000px;
     border-radius: 12px;
     padding: 20px;
-    
+    margin-block-end: 120px;
 }
 .eliminar{
     background-color: rgb(91, 204, 50);
@@ -81,6 +81,10 @@ form {
     border: 3px solid yellow;
     padding: 30px;
     display: flex;
+    margin-block-end: 12px;
+    align-items: center;
+    justify-content: space-between;
+
 
 }
 
@@ -94,4 +98,9 @@ form {
 .texto{
     flex-direction: column;
     display: flex;
+}
+.nombreEvento,
+.fechaEvento{
+    
+    margin: 0 100px; 
 }
